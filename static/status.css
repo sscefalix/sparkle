@@ -1,0 +1,13 @@
+.status-card {
+    width: fit-content;
+    background-color: var(--card);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.status-card.online {
+    border: 1px solid var(--online);
+}
+.status-card.offline {
+    border: 1px solid var(--offline);
+}

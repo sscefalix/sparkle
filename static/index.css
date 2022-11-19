@@ -1,0 +1,54 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-title {
+    font-size: 44px;
+    margin: 0;
+}
+
+.hero-description {
+    margin: 0;
+    font-weight: 500;
+}
+
+.hero-actions {
+    max-width: 300px;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-actions .btn {
+    margin-top: 10px;
+}
+
+.adventure {
+    width: 400px;
+    background-color: var(--card);
+    border-radius: 3px;
+    border: 1px solid var(--stroke);
+}
+
+.adventure-image {
+    padding: 20px;
+    border-bottom: 1px solid var(--stroke);
+}
+
+.adventure-image img {
+    max-width: 100%;
+}
+
+.adventure-content {
+    padding: 20px;
+}
+
+.adventure-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+.adventure-text {
+    margin-top: 5px;
+    font-size: 17px;
+}
