@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparkle | Главная</title>
+    <link rel="stylesheet" href="../static/default.css">
+    <link rel="stylesheet" href="../static/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+    <header class='header'>
+        <div class='container'>
+            <div class="brand">
+                <img src="https://cdn.discordapp.com/attachments/1043196337740587099/1043214181693923348/95ac8393fbf29e4d67586860255b391a.png" alt="Logo">
+                <a href="/">Sparkle</a>
+            </div>
+            <nav class='menu'>
+                <ul>
+                    <li class='menu-item active hover'><a href="/">Главная</a></li>
+                    <li class="menu-item hover"><a href="/status.html">Статус</a></li>
+                    <!-- {% if g.user %}
+                        <li class='menu-item hover'><a href="/dashboard">Управление</a></li>
+                    {% else %}
+                        <li class="menu-item hover"><a href="/login">Войти</a></li>
+                    {% endif %} -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id='main'>
+        <div class='container'>
+            <div class="hero">
+                <h1 class="hero-title">Sparkle</h1>
+                <h2 class="hero-description">Будущее уже у нас в кармане!</h2>
+                <div class="hero-actions">
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=932281102486372443&permissions=8&scope=bot%20applications.commands" class="btn">Пригласить</a>
+                    <a href="https://discord.gg/eYszU5XgdK" class="btn">Поддержка</a>
+                    <a href="https://docs.sparklebot.fun/" class="btn">Документация</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='adventures'>
+        <div class='container'>
+            <div class="section-info">
+                <div class="section-title">Возможности Sparkle</div>
+            </div>
+            <div class="adventures-list">
+                <ul>
+                    <li class="adventure">
+                        <div class="adventure-image">
+                            <img src="https://media.discordapp.net/attachments/1043196337740587099/1043216547591766046/image.png?width=571&height=159" alt="Img">
+                            <img src="https://media.discordapp.net/attachments/1043196337740587099/1043216638029344869/image.png?width=525&height=207" alt="Img">
+                        </div>
+                        <div class="adventure-content">
+                            <div class="adventure-title">Приветствия</div>
+                            <div class="adventure-text">Бот умеет приветствовать новых пользователей сообщением!</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class='footer'>
+        <div class='container'>
+            <div class="footer-content">
+                <a href="https://sscefalix.xyz/" class="designed-by">Designed by sscefalix</a>
+                <a href="/rules.html" class="terms">Правила</a>
+                <div class="icons">
+                    <a class="icon" href="https://discord.gg/eYszU5XgdK"><i class="fab fa-discord"></i></a>
+                    <a href="https://vk.com/sparklecompany " class="icon"><i class="fab fa-vk"></i></a>
+                </div>
+            </div>
+            <iframe
+                src="https://discord.com/widget?id=958094412397834321&theme=dark" 
+                width="300" 
+                height="350" 
+                allowtransparency="true" 
+                frameborder="0" 
+                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+            >
+            </iframe>
+        </div>
+    </footer>
+
+</body>
+</html>
